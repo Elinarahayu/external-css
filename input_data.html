@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Pemrograman Web</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>Quiz Pemrograman Web</h1>
+        </div>
+            
+        <div class="nav">
+            <ul>
+            <li><a href="list_data.html">List Jurusan</a></li>
+            <li><a href="input_data.html">Input Data</a></li>
+            <li><a href="tabel_data.html">Tampil Tabel</a></li>
+            <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+        
+        <div class="fieldset">
+        <legend>Rental Mobil</legend>
+        <form action="proses.php" method="post"></form>
+            
+            <table width="400">
+                <tr>
+                    <td>No Identitas</td>
+                    <td><input type="text" name="ktp"></td>
+                </tr>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text" name="Nama"></td>
+                </tr>
+                <tr>
+                    <td>No Hp</td>
+                    <td><input type="text" name="nohp"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" name="Email"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <tr>
+                    <td>Jenis Mobil</td>
+                    <td>
+                        <select name="Mobil" id="Mobil">
+                            <option value="Toyota Avanza"> Honda CR-V</option>
+                            <option value="Toyota Calya"> Toyota Calya</option>
+                            <option value="Toyota Inova"> Toyota Inova</option>
+                            <option value="Daihatsu Xenia"> Daihatsu Xenia</option>
+                            <option value="Daihatsu Sigra"> Daihatsu Sigra</option>
+                            <option value="Honda Brio "> Honda Brio</option>
+                            <option value="Honda Jazz"> Honda Jazz</option>
+                            <option value="Mitsubishi Xpander"> Mitsubishi Xpander</option>
+                        </select>
+                    </td>    
+                </tr>        
+                <tr>
+                    <td>Type Layanan</td>
+                    <td>
+                    <input type="radio" value="Lepas_kunci" name="radio" ><label>Lepas Kunci</label>
+                    <input type="radio" value="Dengan_sopir" name="radio" ><label>Dengan sopir</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tanggal Sewa</td>
+                    <td><input type="date" type="tglsewa"> s/d <input type="date" type="tglpemulangan"></td>
+                </tr>
+
+                <tr>
+                    <td><br></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input name="save" type="submit" value="submit">
+                        <input name="BtnBatal" type="reset" value="Batal">
+                    </td>
+                </tr>
+            </table>
+          </div>   
+          
+          <footer>
+            <b>Copyright&copy; 2023</b> 
+            <b>Created By elinaa✤</b>
+    </footer>
+    </body>
+</html>
